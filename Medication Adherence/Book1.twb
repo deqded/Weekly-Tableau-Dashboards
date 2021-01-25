@@ -1,0 +1,1149 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1211.1636                               -->
+<workbook original-version='18.1' source-build='2019.4.1 (20194.19.1211.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Research_data_SAMS (Research_data_SAMS)' inline='true' name='federated.0iw39b01cr514718xnl6p14isfbn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Research_data_SAMS' name='excel-direct.01x17621rvn31615jy9gs1wwrcx3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/allha/Desktop/Tableau Workbooks/Medication Adherence/Research_data_SAMS.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.01x17621rvn31615jy9gs1wwrcx3' name='Research_data_SAMS' table='[Research_data_SAMS$]' type='table'>
+          <columns gridOrigin='A1:AA430:no:A1:AA430:0' header='yes' outcome='2'>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='string' name='sex' ordinal='2' />
+            <column datatype='string' name='marital status' ordinal='3' />
+            <column datatype='string' name='Education' ordinal='4' />
+            <column datatype='string' name='Occupation' ordinal='5' />
+            <column datatype='string' name='Medication preparation by' ordinal='6' />
+            <column datatype='string' name='medication' ordinal='7' />
+            <column datatype='integer' name='SAMS_item01' ordinal='8' />
+            <column datatype='integer' name='SAMS_item02' ordinal='9' />
+            <column datatype='integer' name='SAMS_item03' ordinal='10' />
+            <column datatype='integer' name='SAMS_item04' ordinal='11' />
+            <column datatype='integer' name='SAMS_item05' ordinal='12' />
+            <column datatype='integer' name='SAMS_item06' ordinal='13' />
+            <column datatype='integer' name='SAMS_item07' ordinal='14' />
+            <column datatype='integer' name='SAMS_item08' ordinal='15' />
+            <column datatype='integer' name='SAMS_item09' ordinal='16' />
+            <column datatype='integer' name='SAMS_item10' ordinal='17' />
+            <column datatype='integer' name='SAMS_item11' ordinal='18' />
+            <column datatype='integer' name='SAMS_item12' ordinal='19' />
+            <column datatype='integer' name='SAMS_item13' ordinal='20' />
+            <column datatype='integer' name='SAMS_item14' ordinal='21' />
+            <column datatype='integer' name='SAMS_item15' ordinal='22' />
+            <column datatype='integer' name='SAMS_item16' ordinal='23' />
+            <column datatype='integer' name='SAMS_item17' ordinal='24' />
+            <column datatype='integer' name='SAMS_item18' ordinal='25' />
+            <column datatype='integer' name='Sum_SAMS items 1 till 18' ordinal='26' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sex]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>sex</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marital status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[marital status]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>marital status</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Occupation]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>Occupation</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medication preparation by</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Medication preparation by]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>Medication preparation by</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medication</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[medication]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>medication</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item01</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item01]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item01</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item02</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item02]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item02</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item03</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item03]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item03</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item04</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item04]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item04</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item05</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item05]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item05</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item06</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item06]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item06</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item07</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item07]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item07</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item08</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item08]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item08</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item09</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item09]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item09</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item10]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item10</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item11</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item11]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item11</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item12]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item12</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item13]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item13</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item14]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item14</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item15]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item15</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item16</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item16]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item16</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item17</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item17]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item17</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SAMS_item18</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SAMS_item18]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>SAMS_item18</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum_SAMS items 1 till 18</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum_SAMS items 1 till 18]</local-name>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias>Sum_SAMS items 1 till 18</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Research_data_SAMS]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AA430:no:A1:AA430:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Medication preparation by]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+      <column caption='SAMS item01' datatype='integer' name='[SAMS_item01]' role='measure' type='quantitative' />
+      <column caption='SAMS item02' datatype='integer' name='[SAMS_item02]' role='measure' type='quantitative' />
+      <column caption='SAMS item03' datatype='integer' name='[SAMS_item03]' role='measure' type='quantitative' />
+      <column caption='SAMS item04' datatype='integer' name='[SAMS_item04]' role='measure' type='quantitative' />
+      <column caption='SAMS item05' datatype='integer' name='[SAMS_item05]' role='measure' type='quantitative' />
+      <column caption='SAMS item06' datatype='integer' name='[SAMS_item06]' role='measure' type='quantitative' />
+      <column caption='SAMS item07' datatype='integer' name='[SAMS_item07]' role='measure' type='quantitative' />
+      <column caption='SAMS item08' datatype='integer' name='[SAMS_item08]' role='measure' type='quantitative' />
+      <column caption='SAMS item09' datatype='integer' name='[SAMS_item09]' role='measure' type='quantitative' />
+      <column caption='SAMS item10' datatype='integer' name='[SAMS_item10]' role='measure' type='quantitative' />
+      <column caption='SAMS item11' datatype='integer' name='[SAMS_item11]' role='measure' type='quantitative' />
+      <column caption='SAMS item12' datatype='integer' name='[SAMS_item12]' role='measure' type='quantitative' />
+      <column caption='SAMS item13' datatype='integer' name='[SAMS_item13]' role='measure' type='quantitative' />
+      <column caption='SAMS item14' datatype='integer' name='[SAMS_item14]' role='measure' type='quantitative' />
+      <column caption='SAMS item15' datatype='integer' name='[SAMS_item15]' role='measure' type='quantitative' />
+      <column caption='SAMS item16' datatype='integer' name='[SAMS_item16]' role='measure' type='quantitative' />
+      <column caption='SAMS item17' datatype='integer' name='[SAMS_item17]' role='measure' type='quantitative' />
+      <column caption='SAMS item18' datatype='integer' name='[SAMS_item18]' role='measure' type='quantitative' />
+      <column caption='Sum SAMS items 1 till 18' datatype='integer' name='[Sum_SAMS items 1 till 18]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Marital Status' datatype='string' name='[marital status]' role='dimension' type='nominal' />
+      <column caption='Medication' datatype='string' name='[medication]' role='dimension' type='nominal' />
+      <column caption='Sex' datatype='string' name='[sex]' role='dimension' type='nominal' />
+      <column-instance column='[Medication preparation by]' derivation='None' name='[none:Medication preparation by:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Occupation]' derivation='None' name='[none:Occupation:nk]' pivot='key' type='nominal' />
+      <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+      <column-instance column='[SAMS_item01]' derivation='Sum' name='[sum:SAMS_item01:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item02]' derivation='Sum' name='[sum:SAMS_item02:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item03]' derivation='Sum' name='[sum:SAMS_item03:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item04]' derivation='Sum' name='[sum:SAMS_item04:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item05]' derivation='Sum' name='[sum:SAMS_item05:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item06]' derivation='Sum' name='[sum:SAMS_item06:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item07]' derivation='Sum' name='[sum:SAMS_item07:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item08]' derivation='Sum' name='[sum:SAMS_item08:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item09]' derivation='Sum' name='[sum:SAMS_item09:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item10]' derivation='Sum' name='[sum:SAMS_item10:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item11]' derivation='Sum' name='[sum:SAMS_item11:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item12]' derivation='Sum' name='[sum:SAMS_item12:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item13]' derivation='Sum' name='[sum:SAMS_item13:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item14]' derivation='Sum' name='[sum:SAMS_item14:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item15]' derivation='Sum' name='[sum:SAMS_item15:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item16]' derivation='Sum' name='[sum:SAMS_item16:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item17]' derivation='Sum' name='[sum:SAMS_item17:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SAMS_item18]' derivation='Sum' name='[sum:SAMS_item18:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Medication preparation by,Occupation,Sex)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Medication preparation by:nk]' />
+          <groupfilter function='level-members' level='[none:Occupation:nk]' />
+          <groupfilter function='level-members' level='[none:sex:nk]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.285714' measure-ordering='alphabetic' measure-percentage='0.714286' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item09:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:age:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item05:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item03:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item12:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item10:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item06:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item18:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item16:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item07:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item13:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item14:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item17:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item02:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item08:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item01:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item15:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item11:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:SAMS_item04:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Least adherent population brackets based on</run>
+            <run>Æ </run>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Stendal Adherence to Medication Score (SAMS)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Research_data_SAMS (Research_data_SAMS)' name='federated.0iw39b01cr514718xnl6p14isfbn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0iw39b01cr514718xnl6p14isfbn'>
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Medication preparation by]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+            <column caption='Sum SAMS items 1 till 18' datatype='integer' name='[Sum_SAMS items 1 till 18]' role='measure' type='quantitative' />
+            <column-instance column='[ID]' derivation='Count' name='[cnt:ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Medication preparation by]' derivation='None' name='[none:Medication preparation by:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Occupation]' derivation='None' name='[none:Occupation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+            <column caption='Sex' datatype='string' name='[sex]' role='dimension' type='nominal' />
+            <column-instance column='[Sum_SAMS items 1 till 18]' derivation='Sum' name='[sum:Sum_SAMS items 1 till 18:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0iw39b01cr514718xnl6p14isfbn].[Exclusions (Medication preparation by,Occupation,Sex)]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Medication preparation by:nk]' />
+                <groupfilter function='level-members' level='[none:Occupation:nk]' />
+                <groupfilter function='level-members' level='[none:sex:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Medication preparation by:nk]' member='&quot;\#&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:sex:nk]' member='&quot;female&quot;' />
+                      <groupfilter function='union'>
+                        <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;employed&quot;' />
+                        <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;pensioned&quot;' />
+                      </groupfilter>
+                    </groupfilter>
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:sex:nk]' member='&quot;male&quot;' />
+                      <groupfilter function='union'>
+                        <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;employed&quot;' />
+                        <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;pensioned&quot;' />
+                        <groupfilter function='member' level='[none:Occupation:nk]' member='&quot;unemployed&quot;' />
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Medication preparation by:nk]' />
+                  <hierarchy name='[none:Occupation:nk]' />
+                  <hierarchy name='[none:sex:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Education:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Education:nk]' member='&quot; General Certificate of Secondary Education (German Realschule)&quot;' />
+              <groupfilter from='&quot;German Abitur (qualifying for university admission or matriculation)&quot;' function='range' level='[none:Education:nk]' to='&quot;university degree&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]'>
+            <groupfilter from='&quot;employed&quot;' function='range' level='[none:Occupation:nk]' to='&quot;unemployed&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]'>
+            <groupfilter function='level-members' level='[none:sex:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0iw39b01cr514718xnl6p14isfbn].[Exclusions (Medication preparation by,Occupation,Sex)]</column>
+            <column>[federated.0iw39b01cr514718xnl6p14isfbn].[none:Education:nk]</column>
+            <column>[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]</column>
+            <column>[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]' num-steps='6' palette='red_green_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]' />
+              <color column='[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]' />
+              <text column='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]' />
+              <text column='[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]' />
+              <text column='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Medication preparation by:nk]' />
+              <text column='[federated.0iw39b01cr514718xnl6p14isfbn].[cnt:ID:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Medication preparation by:&#9;</run>
+                <run bold='true'>&lt;[federated.0iw39b01cr514718xnl6p14isfbn].[none:Medication preparation by:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Occupation:&#9;</run>
+                <run bold='true'>&lt;[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Sex:&#9;</run>
+                <run bold='true'>&lt;[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of ID:&#9;Number of individuals </run>
+                <run bold='true'>&lt;[federated.0iw39b01cr514718xnl6p14isfbn].[cnt:ID:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Sum SAMS items 1 till 18:&#9;</run>
+                <run bold='true'>&lt;[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5695FDDA-6FC6-4551-AA39-A2745AF5CD1A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Research_data_SAMS (Research_data_SAMS)' name='federated.0iw39b01cr514718xnl6p14isfbn' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0iw39b01cr514718xnl6p14isfbn'>
+        <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Occupation]' role='dimension' type='nominal' />
+        <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Occupation]' derivation='None' name='[none:Occupation:nk]' pivot='key' type='nominal' />
+        <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+        <column caption='Sex' datatype='string' name='[sex]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98142' id='15' param='vert' type='layout-flow' w='99034' x='483' y='929'>
+            <zone h='98142' id='7' param='horz' type='layout-flow' w='99034' x='483' y='929'>
+              <zone h='98142' id='5' type='layout-basic' w='89378' x='483' y='929'>
+                <zone h='98142' id='3' name='Sheet 1' w='89378' x='483' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='98142' id='6' is-fixed='true' param='vert' type='layout-flow' w='9656' x='89861' y='929'>
+                <zone h='17538' id='8' name='Sheet 1' param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]' type='filter' w='9656' x='89861' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9524' id='9' name='Sheet 1' param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]' show-all='false' type='filter' w='9656' x='89861' y='18467'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='22880' id='10' name='Sheet 1' param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Education:nk]' type='filter' w='9656' x='89861' y='27991'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='8478' id='11' name='Sheet 1' pane-specification-id='0' param='[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]' type='color' w='9656' x='89861' y='50871'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='17' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='16' param='vert' type='layout-flow' w='99034' x='483' y='929'>
+                <zone h='17538' id='8' mode='checkdropdown' name='Sheet 1' param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]' type='filter' w='9656' x='89861' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9524' id='9' mode='checkdropdown' name='Sheet 1' param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]' show-all='false' type='filter' w='9656' x='89861' y='18467'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='22880' id='10' mode='checkdropdown' name='Sheet 1' param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Education:nk]' type='filter' w='9656' x='89861' y='27991'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98142' id='3' is-fixed='true' name='Sheet 1' w='89378' x='483' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8478' id='11' name='Sheet 1' pane-specification-id='0' param='[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]' type='color' w='9656' x='89861' y='50871'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FF1E8914-24ED-40CF-B182-EDB256AFFAC9}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]' type='filter' />
+            <card param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]' show-all='false' type='filter' />
+            <card param='[federated.0iw39b01cr514718xnl6p14isfbn].[none:Education:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:Medication preparation by:nk]</field>
+                  <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]</field>
+                  <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]</field>
+                  <field>[federated.0iw39b01cr514718xnl6p14isfbn].[sum:Sum_SAMS items 1 till 18:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;\#&quot;</value>
+                <value>&quot;employed&quot;</value>
+                <value>&quot;female&quot;</value>
+                <value>99</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:Education:nk]</field>
+            <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:ID:ok]</field>
+            <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:Medication preparation by:nk]</field>
+            <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:Occupation:nk]</field>
+            <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:marital status:nk]</field>
+            <field>[federated.0iw39b01cr514718xnl6p14isfbn].[none:sex:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{C402F847-C95F-4BFA-9F85-DAFB339B4D55}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{57B0048A-F0D2-424F-BD76-EB8BA4FD5268}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      v/dVVyhef/UBP6dn55kvlLCUwv8yd+0tJw6Hg1BjEHBQVesnnyq+7IVxS1lyz6R6hirX+V8i
+      Pzp5haXF9WJ9Qw3rL1zO/OJLnn8fRDrriXRemxt2rq8zwUK8wSQAwtYkAMLWJADC1iQAwtYk
+      AMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC
+      1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYk
+      AMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC
+      1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYk
+      AMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC
+      1iQAwtYkAMLWJADC1iQAwtZcb3YDhLharlIt7kLjtS3zmpYmxOtocHqYvqmBa1qmDIGErUkA
+      xO8dn9uHy7n04KY51ATIEEgsQ7d23IJH85ApZVlVv5KR+Bh+t49sKUddoJbx5ASaU6M2UEsi
+      N09bbSuJ3DyNwQglo0ROz1PjDzOdjskRQCw/pmVRNstUe6sYS4xjmAanp89QNsu4NBdhf4iA
+      J0CqkMLv8TEaH8OwDDSnk1h6Bs3hpFAuAHIEEMtQoVxgJD6GbupUe6vJlXKYlkm+XGAmM0um
+      lMVSFmFfiFQxjdPhxAGMJsZQCsaTEzgdGiABEMvQwPTgwuNUIbXwuGyWSV7y/OJjU5kAGHrh
+      JWXJEEgsO5HqBhqq6pdcpi5Qe1VlyRFALDu3rdrGwPRp2mpXMJudo61mBQCxzAxel+fC/KCa
+      sD9EtbeKnsn+K5YlRwCx7IzNRwn6grg1N0FvNaOJMTLFDD63j4bqejobVgOwoWkdbs2zZFly
+      BBDLTjQxTk7Ps75xLZOpKXSzTF4vAArLMsmWcuT1PNPpGNXeqiXLkgCIZefi5PbSyyKK5SIA
+      6WJm0bIzmdkly5IhkFh2XE6NpuDLXxTndXlfvqxr0SAh3kg3tW0lOj9OfVUdjcEIU6lpgr4g
+      SlkAGJZJQ1U9s9k5ypZBrpQj5AsSCTYwkZykNlDLSHwUkACIZci0DGYys6xpWM2q+pUE3H5O
+      x4b4N2vuIJGfp6AXcDqdNIUaSRXSdDaswu10YyqDtZFORuJjC2XJEEgsO3PZBFtXbAEgkUsS
+      y8yS03OMz0+QyM2jULTXriCeSzCenKBYLnJ27hwlQ2cqNU2qkF4oS44AYtkZT04wnpwA4Ozc
+      +YXX+6dPA7Ai3EpPsY+J5CQAvRfOA1xuQiwBEMuO3+0n4PETzyUI+oJkXvTLz0Rq8qrLkiGQ
+      WHZq/CHWRdYQ8AS4b+O9OB2vvhtLAMSy49Y8TGdmuLH1BixlURuoedVlyRBILDsN1fWUjBKH
+      R47REm4ikZt/1WVJAMSyczx6cuHxZGr6NZUlQyBhaxIAYWsSAGFrEgBhaxIAYWsSAGFrEgBh
+      axIAYWsSAGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsS
+      AGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsSAGFrEgBh
+      axIAYWsSAGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsSAGFrEgBhaxIAYWsS
+      AGFrEgBhaxIAYWsSAGFrEgBha/8fG0v8+y7vzM8AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
